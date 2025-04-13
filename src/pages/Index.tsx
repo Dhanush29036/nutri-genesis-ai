@@ -1,7 +1,6 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Bacteria, ChefHat, Heart, LineChart } from "lucide-react";
+import { ArrowRight, Flask, ChefHat, Heart, LineChart } from "lucide-react";
 import AuthForm from "@/components/auth/AuthForm";
 
 const Index = () => {
@@ -52,7 +51,7 @@ const Index = () => {
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <div className="p-4 bg-nutrition-light rounded-full mb-4">
-                <Bacteria className="h-8 w-8 text-nutrition-primary" />
+                <Flask className="h-8 w-8 text-nutrition-primary" />
               </div>
               <h3 className="text-xl font-semibold">Gut Microbiome Analysis</h3>
               <p className="mt-4 text-gray-600">

@@ -1,7 +1,7 @@
 
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { ActivitySquare, ChefHat, Home, LineChart, LayoutDashboard, UserRound, Settings, Bacteria, HeartPulse } from "lucide-react";
+import { ActivitySquare, ChefHat, Home, LineChart, LayoutDashboard, UserRound, Settings, Flask, HeartPulse } from "lucide-react";
 
 interface SidebarProps {
   className?: string;
@@ -12,7 +12,7 @@ const Sidebar = ({ className }: SidebarProps) => {
   
   const menuItems = [
     { name: "Dashboard", path: "/dashboard", icon: <LayoutDashboard className="h-5 w-5" /> },
-    { name: "Microbiome", path: "/microbiome", icon: <Bacteria className="h-5 w-5" /> },
+    { name: "Microbiome", path: "/microbiome", icon: <Flask className="h-5 w-5" /> },
     { name: "Meal Planning", path: "/meal-planning", icon: <ChefHat className="h-5 w-5" /> },
     { name: "Wearable Data", path: "/wearables", icon: <HeartPulse className="h-5 w-5" /> },
     { name: "Progress", path: "/progress", icon: <LineChart className="h-5 w-5" /> },
